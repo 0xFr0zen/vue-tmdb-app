@@ -1,5 +1,5 @@
 <template>
-  <h1>sdas</h1>
+  <h1>API-SetFilter</h1>
   <div class="genre" @click="setFilter('with_genre', 27)">
     CLICK HERE TO SET FILTER 'GENRE'
   </div>
@@ -35,8 +35,10 @@ export default {
 </script>
 <style scoped>
 .genre {
-  width: 2rem;
-  height: 2rem;
-  background-color: red;
+  width: auto;
+  height: auto;
+  background-color: lightblue;
+  padding: 2rem;
+  margin-bottom: 2rem;
 }
 </style>
