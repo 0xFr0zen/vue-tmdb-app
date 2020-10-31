@@ -1,6 +1,8 @@
 <template>
   <h1>sdas</h1>
-  <div class="genre" @click="setFilter('with_genre', 27)" />
+  <div class="genre" @click="setFilter('with_genre', 27)">
+    CLICK HERE TO SET FILTER 'GENRE'
+  </div>
   <button value="LOL" @click="getResults">GET RESULTS</button>
 </template>
 
