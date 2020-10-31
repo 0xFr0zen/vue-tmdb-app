@@ -4,6 +4,9 @@
     CLICK HERE TO SET FILTER 'GENRE'
   </div>
   <button value="LOL" @click="getResults">GET RESULTS</button>
+  <div id="results">
+    {{ result }}
+  </div>
 </template>
 
 <script>
